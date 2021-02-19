@@ -101,7 +101,7 @@ function getText(result, blocksMap) {
   } catch (err) {
     console.error(err);
   }
-  return text;
+  return text.trim();
 }
 
 function findValueBlock(keyBlock, valueMap) {
